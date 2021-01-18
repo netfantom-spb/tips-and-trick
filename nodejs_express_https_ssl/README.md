@@ -102,5 +102,13 @@ var server = https.createServer(httpsOptions, app);
 ```
 
 ## Add root certificate to the Trusted root certification authorities list
-### Windows
-Open certification manager from command line `certmgr. msc`
+Without adding to tge Trusted root certifiaction authorities list browser will show alerts:
+![](Screenshot_1.png)
+### Import with Certification Manager (Windows)
+Open **Certification Manager** from command line `certmgr.msc`, navigate to **Trusted root certification authorities** / **Certificates**, run context menu **All tasks** / **Import** and import **rootCA/rootCA.crt**. Apply security notification.
+
+### Import with Browser (Windows, Linux)
+In Google Chrome open **Settings** and go to **Privacy and security / Security /Manager certificates**. Navigate to ** Trusted root certifiaction authorities** tab and import **rootCA/rootCA.crt**
+
+### Import on MacOS X
+Use **Keychain Access** application to import certificate
