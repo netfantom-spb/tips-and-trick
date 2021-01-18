@@ -3,9 +3,9 @@ prompt = no
 distinguished_name = req_distinguished_name
 
 [ req_distinguished_name ]
-#C = RU
-#ST = Test State
-#L = Test Locality
+C = RU
+ST = Saint-Petersburg
+L = Saint-Petersburg
 #O = Org Name
 #OU = Org Unit Name
 CN = Test Server Name

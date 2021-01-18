@@ -3,10 +3,10 @@ prompt = no
 distinguished_name = req_distinguished_name
 
 [ req_distinguished_name ]
-#C = RU
-#ST = Test State
-#L = Test Locality
-#O = Org Name
+C = RU
+ST = Saint-Petersburg
+L = Saint-Petersburg
+#O = Organization
 #OU = Org Unit Name
 CN = ROOT CA
 #emailAddress = test@email.com
