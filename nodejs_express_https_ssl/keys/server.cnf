@@ -8,5 +8,5 @@ distinguished_name = req_distinguished_name
 #L = Test Locality
 #O = Org Name
 #OU = Org Unit Name
-CN = Test Client name
+CN = Test Server Name
 #emailAddress = test@email.com
