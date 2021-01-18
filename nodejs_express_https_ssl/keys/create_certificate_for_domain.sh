@@ -5,4 +5,4 @@ openssl req -new -newkey rsa:2048 -sha256 -nodes \
 # Generate Key file and Certificate file
 openssl x509 -req -in ./server/server.csr -CA ./rootCA/rootCA.crt \
     -CAkey ./rootCA/rootCA.key -CAcreateserial -out ./server/server.crt -days 3650 -sha256 -extfile ./server.ext
-rm ./server/server.csr
+rm ./server/server.csr ./rootCA/rootCA.srl
