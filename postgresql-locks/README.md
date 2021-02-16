@@ -1,4 +1,6 @@
 # PostgreSQL locks analyze
+[About locks in PostgreSQL documentation](https://www.postgresql.org/docs/12/explicit-locking.html)
+
 Current locks
 ```SQL
 select
